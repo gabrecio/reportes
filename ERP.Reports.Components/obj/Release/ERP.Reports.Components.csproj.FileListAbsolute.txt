@@ -1,0 +1,11 @@
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Components\bin\Release\ERP.Reports.Components.dll
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Components\bin\Release\ERP.Reports.Components.pdb
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Components\bin\Release\ERP.Reports.Extensions.dll
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Components\bin\Release\Newtonsoft.Json.dll
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Components\bin\Release\stdole.dll
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Components\bin\Release\ERP.Reports.Extensions.pdb
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Components\obj\Release\ERP.Reports.Components.csproj.AssemblyReference.cache
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Components\obj\Release\ERP.Reports.Components.csproj.CoreCompileInputs.cache
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Components\obj\Release\ERP.Reports.Components.csproj.CopyComplete
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Components\obj\Release\ERP.Reports.Components.dll
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Components\obj\Release\ERP.Reports.Components.pdb

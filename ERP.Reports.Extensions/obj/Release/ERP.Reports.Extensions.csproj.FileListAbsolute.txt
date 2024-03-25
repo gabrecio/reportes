@@ -1,0 +1,14 @@
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Extensions\bin\Release\ERP.Reports.Extensions.dll
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Extensions\bin\Release\ERP.Reports.Extensions.pdb
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Extensions\bin\Release\MediatR.dll
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Extensions\bin\Release\MediatR.Contracts.dll
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Extensions\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Extensions\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Extensions\bin\Release\Newtonsoft.Json.dll
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Extensions\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Extensions\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Extensions\obj\Release\ERP.Reports.Extensions.csproj.AssemblyReference.cache
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Extensions\obj\Release\ERP.Reports.Extensions.csproj.CoreCompileInputs.cache
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Extensions\obj\Release\ERP.Reports.Extensions.csproj.CopyComplete
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Extensions\obj\Release\ERP.Reports.Extensions.dll
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Extensions\obj\Release\ERP.Reports.Extensions.pdb

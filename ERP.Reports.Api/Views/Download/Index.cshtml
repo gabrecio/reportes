@@ -1,0 +1,127 @@
+﻿@model ERP.Reports.Api.ViewModels.DownloadViewModel
+<div class="mt-4 mb-4  p-5 bg-success text-white rounded">
+    <h1>Download Section</h1>
+    <p class="lead">Load json and download the report.</p>
+</div>
+
+@using (Html.BeginForm("Download", "Download", FormMethod.Post))
+{
+    <div class="row px-4 py-4">
+        <div class="col-6">
+            <div class="row">
+                @Html.TextAreaFor(x => x.Json, new { name = "Text1", id = "Edit", rows = "15", @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-4">
+            <pre id="json-renderer"></pre>
+        </div>
+        <div class="col-2">
+            <h3>Examples</h3>
+            <ul class="list-group">
+                <li class="list-group-item"><button type="button" id="Invoice" class="btn btn-link">Invoice</button></li>
+                <li class="list-group-item"><button type="button" id="CreditMemo" class="btn btn-link">Credit Memo</button></li>
+                <li class="list-group-item"><button type="button" id="DebitMemo" class="btn btn-link">Debit Memo</button></li>
+
+            </ul>
+        </div>
+        @if (Model != null && Model.Errors.Any())
+        {
+            <ul>
+                @foreach (var p in Model.Errors)
+                {
+                    <li>@p</li>
+                }
+            </ul>
+        }
+        <button class="btn btn-success" id="Download">Download</button>
+    </div>
+}
+
+@section scripts
+{
+    <script>
+
+        function SetJsonText() {
+            try {
+                $('#json-renderer').text('')
+                var pepe = JSON.parse($('#Edit').val());
+                console.log(pepe);
+                $('#json-renderer').jsonViewer(pepe);
+            } catch (error) {
+                $('#json-renderer').text(error);
+
+            }
+        }
+        function LoadJsonExample(obj) {
+            $('#Edit').val(JSON.stringify(obj));
+            SetJsonText();
+        }
+
+        $('#Edit').bind('input propertychange', function () {
+            SetJsonText();
+
+
+        });
+        SetJsonText();
+        $('#Invoice').click(function (e) {
+            LoadJsonExample({
+                "ReportId": "AR.Invoice",
+                "Parameters": {
+                    "OrganizationId": 5,
+                    "Invoices": [
+                        {
+                            "Id": 1
+                        }
+                    ]
+                },
+                "CustomReportParameters": null,
+                "Transaction": {
+                    "Id": 1,
+                    "Number": "IINV012053077",
+                    "OrganizationId": 5,
+                    "TransactionTypeId": 12000
+                }
+            });
+            return false;
+        });
+        $('#DebitMemo').click(function (e) {
+            LoadJsonExample({
+                "ReportId": "AP.DebitMemo",
+                "Parameters": {
+                    "OrganizationId": 2,
+                    "DebitMemoId": 1
+                },
+                "CustomReportParameters": null,
+                "Transaction": {
+                    "Id": 1,
+                    "Number": "DM1001",
+                    "OrganizationId": 2,
+                    "TransactionTypeId": 12000
+                }
+            });
+            return false;
+        });
+        $('#CreditMemo').click(function (e) {
+            LoadJsonExample({
+                "ReportId": "AR.CreditMemo",
+                "Parameters": {
+                    "OrganizationId": 3,
+                    "CreditMemos": [
+                        {
+                            "Id": 1
+                        }
+                    ]
+                },
+                "CustomReportParameters": null,
+                "Transaction": {
+                    "Id": 1,
+                    "Number": "CM1",
+                    "OrganizationId": 3,
+                    "TransactionTypeId": 16000
+                }
+            });
+            return false;
+        });
+    </script>
+
+}

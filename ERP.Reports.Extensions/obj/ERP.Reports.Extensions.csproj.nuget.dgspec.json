@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\proyectos\\allied\\fuente\\ERP\\.NET\\src\\ERP.Reports\\ERP.Reports.Extensions\\ERP.Reports.Extensions.csproj": {}
+  },
+  "projects": {
+    "C:\\proyectos\\allied\\fuente\\ERP\\.NET\\src\\ERP.Reports\\ERP.Reports.Extensions\\ERP.Reports.Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\proyectos\\allied\\fuente\\ERP\\.NET\\src\\ERP.Reports\\ERP.Reports.Extensions\\ERP.Reports.Extensions.csproj",
+        "projectName": "ERP.Reports.Extensions",
+        "projectPath": "C:\\proyectos\\allied\\fuente\\ERP\\.NET\\src\\ERP.Reports\\ERP.Reports.Extensions\\ERP.Reports.Extensions.csproj",
+        "packagesPath": "C:\\Users\\Grecio\\.nuget\\packages\\",
+        "outputPath": "C:\\proyectos\\allied\\fuente\\ERP\\.NET\\src\\ERP.Reports\\ERP.Reports.Extensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\proyectos\\allied\\fuente\\ERP\\.NET\\src\\ERP.Reports\\.nuget\\NuGet.Config",
+          "C:\\proyectos\\allied\\fuente\\ERP\\.NET\\src\\NuGet.Config",
+          "C:\\Users\\Grecio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

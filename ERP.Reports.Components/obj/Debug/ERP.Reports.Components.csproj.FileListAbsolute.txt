@@ -1,0 +1,10 @@
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Components\bin\Debug\ERP.Reports.Components.dll
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Components\bin\Debug\ERP.Reports.Components.pdb
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Components\bin\Debug\ERP.Reports.Extensions.dll
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Components\bin\Debug\stdole.dll
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Components\bin\Debug\ERP.Reports.Extensions.pdb
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Components\obj\Debug\ERP.Reports.Components.csproj.AssemblyReference.cache
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Components\obj\Debug\ERP.Reports.Components.csproj.CoreCompileInputs.cache
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Components\obj\Debug\ERP.Reports.Components.csproj.CopyComplete
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Components\obj\Debug\ERP.Reports.Components.dll
+C:\proyectos\allied\fuente\ERP\.NET\src\ERP.Reports\ERP.Reports.Components\obj\Debug\ERP.Reports.Components.pdb
